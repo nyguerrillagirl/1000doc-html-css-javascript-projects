@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items defaults to stretch */
+  background: #eee;
+  height: 300px; /* gives us a tall container */
+}
+
+img {
+  width: 150px;
+  margin: 5px;
+}
