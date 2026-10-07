@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Example</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>  
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text that introduces the page.</p>
+    <a href="about.html">Learn more about me</a>
+    <button id="btn">Click Me</button>
+    <p id="message"></p>
+
+    <script>
+        const btn = document.getElementById('btn');
+        const message = document.getElementById('message');
+        
+        btn.addEventListener('click', () => {
+            message.textContent = 'Button was clicked!';
+        });
+    </script>
+</body>
+</html>
