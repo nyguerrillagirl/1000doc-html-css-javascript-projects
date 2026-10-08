@@ -1,0 +1,19 @@
+/* Make the p tags stack up in two columns with nice blue text (a bit larger than normal) */
+p {
+    column-count: 2;
+    column-gap: 20px;
+    font-size: 1.2em;
+    color: blue;
+}
+
+/* center the h1 tag */
+h1 {
+    text-align: center;
+}
+
+/* Use media queries to adjust the column count for smaller screens */
+@media (max-width: 600px) {
+    p {
+        column-count: 1;
+    }
+}

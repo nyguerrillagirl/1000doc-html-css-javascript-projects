@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* CSS rule to make p tags a bit bigger and blue text */
+p {
+    font-size: 1.2em;
+    color: blue;
+}
+
+/* CSS rule to style a tags with no underline and a different color */
+a {
+    text-decoration: none;
+    color: green;
+}
