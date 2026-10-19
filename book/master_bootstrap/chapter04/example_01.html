@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 01</title>
+    <!-- Bootstrap v5.3.8 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- p-3 apply padding of size 3 to all sides of this element -->
+    <!-- my-3 apply margin of size 3 to top and bottom of this element -->
+    <!-- border adds a “Apply a 1px solid light-gray border.” -->   
+    <div class="container bg-light p-3 my-3 border">
+        <p>This is a fixed-width container.</p>
+    </div>
+
+    <div class="container-fluid bg-warning p-3 my-3 border">
+        <p>This is a fluid container (always fill width).</p>
+    </div>
+
+    <div class="container-md bg-info p-3 my-3 border">
+        <p>This is responsive; fluid until md, the container becomes fixed-width.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
